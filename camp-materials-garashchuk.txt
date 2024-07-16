@@ -6,27 +6,26 @@ I. Python Scripting for Computational Molecular Science
 from the Molecular Sciences Software Institute (MolSSI)  
 https://education.molssi.org/python_scripting_cms/ 
 
-0. Setup do as needed. Make sure to obtain the lesson materials 
+0. Setup: do as needed; make sure to obtain the lesson materials 
 
     Download the files needed for these lessons https://education.molssi.org/python_scripting_cms/data/data.zip
     Create a folder called cms-workshop on your Desktop.
     Move the downloaded materials to the new folder.
     Unzip the file.
 
-1. (45 min)  Introduction 	What is the basic syntax of the python programming language?
-2. (45 min) File Parsing 	How do I sort through all the information in a text file and extract particular pieces of information?
-3. (35 min) Processing Multiple Files and Writing Files 	How do I analyze multiple files at once?
-4. (100 min) Working with Tabular Data 	How do I work with numerical data presented in tables?
-5. (40 min) Plotting and Data Visualization 	How do I visualize data by making graphs?
-6. (40 min)  Writing Functions 	How do I write include functions in my code? 
+1. (45 min, optional)  Introduction. 	What is the basic syntax of the python programming language?
+2. (45 min) File Parsing. 	How do I sort through all the information in a text file and extract particular pieces of information?
+3. (35 min) Processing Multiple Files and Writing Files. 	How do I analyze multiple files at once?
+4. (100 min) Working with Tabular Data. 	How do I work with numerical data presented in tables?
+5. (40 min) Plotting and Data Visualization. 	How do I visualize data by making graphs?
+6. (40 min)  Writing Functions. 	How do I write include functions in my code? 
 
 Units 7-11 are optional. 
 All units include hands-on exercises. 
 
 Notes:  everywhere -- replace depricated 'numpy.float' with 'float'; there might be one-two typos in the materials that are easy to fix. 
 
-
-What is not covered in this tutorial, but will be useful for the project: 
+NOT COVERED in this tutorial, but will be useful for the project: 
 processing a sinlge file with multiple  molecules in xyz format of varied lengths. 
 
 II. Machine learning tutorial (Chris Sutton, Chemistry@USC) 
@@ -34,8 +33,7 @@ files:  sklearn-krr-regression-summer24.ipynb  kaggle_train.csv
  
 III. (Optional) Python software packages for molecules and materials
 https://github.com/Sutton-Research-Lab/Python_workshop_2022/tree/master/materials/Day_05
-Working with the periodic table:   file  periodic_table.ipynb
-
+Working with the periodic table:   file periodic_table.ipynb
     
 IV. Project based on
 'The tmQM Dataset—Quantum Geometries and Properties of 86k Transition Metal Complexes'
@@ -50,6 +48,10 @@ https://www.uiocompcat.info/tmqmdataset
 
 A truncated version of the dataset (6000 structures, files '*short*') for ML and 6 structures for the code and model development (files *tiny*) are provided.   
 
-The goal: using standard ML models (sklearn) come up with  the structure descriptors (e.g. number of chemical bonds to the metal, type of metal and its row/column in the periodic table)  and correlate them to the computed properties  (e.g. the dipole method is important for stacking, homo-lumo gap is important for photochemistry and charge-energy transfer)   
+
+
+The goal: using standard ML models (sklearn) come up with  the structure descriptors (e.g. number of chemical bonds to the metal, type of metal and its row/column in the periodic table)  and correlate them to the computed properties  (e.g. the dipole method is important for stacking, homo-lumo gap is important for photochemistry and charge-energy transfer)
+A molecular viewer (e.g. iqmol) will be useful in coming up with the molecular features. 
+
     
     
