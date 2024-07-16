@@ -44,11 +44,11 @@ J. Chem. Inf. Model. 2020, 60, 12, 6135–6146
 Publication Date:November 9, 2020
 https://doi.org/10.1021/acs.jcim.0c01041
 
-the data are available at https://github.com/bbskjelstad/tmqm 
+Full data are available at https://github.com/bbskjelstad/tmqm 
 or 
 https://www.uiocompcat.info/tmqmdataset
 
-We will provide a truncated version of the dataset. 
+A truncated version of the dataset (6000 structures, files '*short*') for ML and 6 structures for the code and model development (files *tiny*) are provided.   
 
 The goal: using standard ML models (sklearn) come up with  the structure descriptors (e.g. number of chemical bonds to the metal, type of metal and its row/column in the periodic table)  and correlate them to the computed properties  (e.g. the dipole method is important for stacking, homo-lumo gap is important for photochemistry and charge-energy transfer)   
     
