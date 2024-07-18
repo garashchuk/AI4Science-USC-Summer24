@@ -1,3 +1,9 @@
+The key items are 
+(1) MolSSI tutorial #6, which will produce a program computing 'short' bond-distances (user-defined 'short') 
+(2) periodic_table.ipynb (this repo) and the list of the most relevant (for tmQM) properties 
+    of elements   in file mendeleev-selected-data-types.pdf 
+(3) data files for the truncated tmQM (this repo); see section IV 
+
 
 ML for molecules
 
